@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "paths": {
+      "@pdfme/common": ["../packages/common/dist"],
+      "@pdfme/ui": ["../packages/ui/dist"]
+    },
     "lib": [
       "dom",
       "dom.iterable",
